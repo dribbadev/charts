@@ -23,7 +23,8 @@ class MaterialPalette {
   static const black = const Color(r: 0, g: 0, b: 0);
   static const transparent = const Color(r: 0, g: 0, b: 0, a: 0);
   static const white = const Color(r: 255, g: 255, b: 255);
-
+  static const colorPrimary =  const Color(r: 32, g: 116, b: 152, a: 255);
+  
   static Palette get blue => const MaterialBlue();
   static Palette get red => const MaterialRed();
   static Palette get yellow => const MaterialYellow();
